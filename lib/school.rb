@@ -14,4 +14,13 @@ class School
   def grade(year)
     roster[year]
   end
+
+  def sort
+    ret_hash = {}
+    roster.each do |grade, students|
+      ret_hash[grade]=students.sort
+    end
+    ret_hash
+  end
+  
 end
