@@ -22,5 +22,5 @@ class School
     end
     ret_hash
   end
-  
+
 end
